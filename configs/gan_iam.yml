@@ -12,8 +12,8 @@ training:
   lr_policy: 'linear'
   start_decay_epoch: 25
   n_epochs_decay: 45
-  batch_size: 16
-  eval_batch_size: 6
+  batch_size: 32
+  eval_batch_size: 16
   sample_nrow: 3
   # optimization:
   lr: 2.0e-4
@@ -39,7 +39,7 @@ valid:
   n_generate: ~
   dset_name: 'iam_word_org'
   dset_split: 'test'
-  batch_size: 16
+  batch_size: 32
   dims: 2048
   mmd_degree: 3
   mmd_gamma: ~
