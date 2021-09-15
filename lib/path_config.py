@@ -1,7 +1,7 @@
 ImgHeight = 32
 
 data_roots = {
-    'iam_word': '/data/'
+    'iam_word': '/mydrive/MyDrive/khoa_luan/khoa_luan/data/'
 }
 
 data_paths = {

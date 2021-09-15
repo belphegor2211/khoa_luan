@@ -17,7 +17,7 @@ if __name__ == "__main__":
         "--config",
         nargs="?",
         type=str,
-        default="configs/gan_iam.yml",
+        default="/mydrive/MyDrive/khoa_luan/khoa_luan/configs/gan_iam.yml",
         help="Configuration file to use",
     )
 
