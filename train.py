@@ -24,7 +24,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     cfg = yaml2config(args.config)
     run_id = datetime.strftime(datetime.now(), '%m-%d-%H-%M')
-    logdir = os.path.join("runs", os.path.basename(args.config)[:-4] + '-' + str(run_id))
+    logdir = os.path.join("/mydrive/MyDrive/khoa_luan/khoa_luan/runs", os.path.basename(args.config)[:-4] + '-' + str(run_id))
     model = get_model(cfg.model)(cfg, logdir)
     model.train()
 
